@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafios Mentais</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Desenvolva Sua Mente</h1>
+    <p class="description">Desafios diários para turbinar sua mente de forma leve e divertida!</p>
+    
+    <div class="pontuacao">
+      Pontuação: <span id="pontos">0</span>
+    </div>
+
+    <div class="card" id="card">
+      <h2 id="categoria">Categoria: —</h2>
+      <p id="titulo">Clique no botão para começar!</p>
+      <p id="descricao" class="descricao-desafio">Vamos começar o treino cerebral?</p>
+    </div>
+
+    <div class="botoes">
+      <button onclick="gerarDesafio()">Novo Desafio</button>
+      <button onclick="alternarModo()">Modo Claro/Escuro</button>
+    </div>
+  </div>
+
+  <footer>
+    Desenvolvido com dedicação por <strong>Pedro Lopes Lucas</strong>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
